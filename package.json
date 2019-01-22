@@ -1,0 +1,26 @@
+{
+  "name": "gitbuddy",
+  "version": "1.0.0",
+  "description": "A web app that tracks the user's commit history and allows them to set weekly goals that will be tracked by GitBuddy.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dav-jordan/GitBuddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dav-jordan/GitBuddy/issues"
+  },
+  "homepage": "https://github.com/dav-jordan/GitBuddy#readme"
+}
