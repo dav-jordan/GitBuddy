@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('ci with travis');
+  res.sendFile('./src/index.html');
 });
 
 const server = app.listen(3000, () => {
